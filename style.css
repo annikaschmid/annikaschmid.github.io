@@ -1,0 +1,67 @@
+.heading {
+    font-family: "Vollkorn", Times, serif;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 0.9;
+}
+
+h1 {
+    font-size: 30px;
+    margin-bottom: 0;
+
+
+}
+
+h2 {
+
+    font-size: 25px;
+    letter-spacing: 3px;
+    margin-top: 0;
+
+
+}
+
+div.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+
+
+}
+
+body {
+    background-color: #efedea;
+    overflow: hidden;
+}
+
+.corner-image {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 200px;
+    height: auto;
+    max-width: 100%;
+
+}
+
+  /* Media query for larger screen sizes */
+  @media screen and (min-width: 768px) {
+    .corner-image {
+    width: 300px; /* Adjust the width for larger screens */
+     }
+}
+
+  /* Media query for even larger screen sizes */
+  @media screen and (min-width: 1200px) {
+    .corner-image {
+    width: 400px; /* Adjust the width for even larger screens */
+    }
+}
+
+
+
